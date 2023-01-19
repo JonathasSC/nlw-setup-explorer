@@ -2,17 +2,9 @@ const form = document.querySelector('#form-habits')
 const nlwSetup = new NLWSetup(form)
 const buttonAdd = document.querySelector('.buttonAdd')
 
-const data = {
-	run: [], 
-	water: [],
-	food: [],
-	journal: [],
-	takePills: [],
-}
-
-
 buttonAdd.addEventListener('click',add)
 form.addEventListener('change',save)
+
 
 function add() {
 
@@ -29,9 +21,10 @@ function add() {
 
 
 function save() {
-	
-	localStorage = localStorage.setItem('NLWSetup@habits')
+	localStorage.setItem("NLWSetup@habits", JSON.stringify(nlwSetup.data))
 }
+
+const data = JSON.parse(localStorage.getItem("NLWSetup@habits")) || {}
 
 
 nlwSetup.setData(data)

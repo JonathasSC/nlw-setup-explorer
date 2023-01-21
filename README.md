@@ -42,12 +42,16 @@ Mais conhecimento em Javascript e prática de lógica de programação.
 
 ### Funcionalidade:
 
+No canto superior direito é possivel ver um botão de adicionar dia á rotina
+essa função tem uma condicional que verifica se esse dia já foi adicionado, caso já tenha sido,
+aparecer um alerta ao usuário, visto na segunda imagem a baixo.
 
 &nbsp;
      
 &nbsp;
 
-![image1](/public/Image.png)
+![image1](/public/Image1.png)
+![image1](/public/Image2.png)
 
 ---
 <div align='center'>

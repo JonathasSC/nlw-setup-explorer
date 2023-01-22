@@ -25,7 +25,7 @@ width: 300px;">
 Iniciado no dia 16/01/23 e finalizado no dia 20/01/23.
 
 
-Projeto feito durante o primeiro evento de programação da Rocketseat, NLW Setup, tendo como objetivo fazer um Web app para registro de hábitos durante os dias
+Projeto feito durante a trilha EXPLORER do primeiro evento de programação de 2023 da Rocketseat, NLW Setup, tendo como objetivo fazer um Web app para registro de hábitos durante os dias.
 
 ---
 ## Aprendizado pessoal:
